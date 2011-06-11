@@ -25,7 +25,18 @@
 	<div id="main">
 		<div id="portfolio" class="box">
 		<h2>Amazing projects I've worked on</h2>
-		
+			<div id="slider">
+			<span id="button-left"></span>
+			<div id="slide-contain">
+				<a href="#"><img src="images/portfolio/holder1.jpg" /></a>
+				<a href="#"><img src="images/portfolio/holder2.jpg" /></a>
+				<a href="#"><img src="images/portfolio/holder3.jpg" /></a>
+			</div>
+			<span id="button-right"></span>
+			
+			<div id="counter"></div>
+			<div class="clear"></div>
+			</div>
 		</div>
 		
 		<div id="how" class="box">
@@ -64,7 +75,7 @@ the internet.</p>
 		</div>
 		
 		<div id="footer">
-		<span id="copyright">(C) Copyright. All rights reserved Stewart Regan.</span>
+		<span id="copyright">(C) Copyright. All rights reserved Stuart Regan.</span>
 		<span id="twitter"><a href="http://twitter.com/stuartregan">Follow me on Twitter</a></span>
 		<div class="clear"></div>
 		</div>
@@ -72,6 +83,7 @@ the internet.</p>
 </div>
 
 <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js'></script>
 
 
 <script type="text/javascript" src='js/jquery.activity-indicator-1.0.0.min.js'></script>
@@ -88,8 +100,6 @@ if (typeof jQuery == 'undefined' || typeof jQuery.ui == 'undefined') {
 }
 </script>
 
-
-<script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('9f62c0649c0d42512b4776da3d63216d'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
 
 </body>
 </html>

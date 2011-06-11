@@ -104,6 +104,7 @@ a#email:hover {
 
 a#email:active {
 	background-position: bottom;
+	margin-top: 21px;
 }
 
 #main {
@@ -124,6 +125,80 @@ a#email:active {
 	padding: 0 0 15px 0;
 	margin: 0 0 15px 0;
 }
+
+#main #portfolio #slider {
+	position: relative;
+	clear: both;
+}
+
+	#slider span#button-left, #slider span#button-right, {
+		width: 16px;
+		height: 26px;
+		display: block;
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		margin: -13px 0 0 0;
+	}
+	
+	#slider span#button-left {
+		background: url(../images/slider_arrow_left.png) no-repeat;
+		background-position: top;
+		left: 0;
+	}
+	
+	#slider span#button-right {
+		background: url(../images/slider_arrow_right.png) no-repeat;
+		background-position: top;
+		right: 0;
+	}
+	
+	#slider span#button-left:hover, #slider span#button-right:hover {
+		background-position: bottom;
+	}
+
+	#slider #slide-contain {
+		position: relative;
+		width: 580px;
+		height: 280px;
+		display: block;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	
+	#slide-contain > a {
+		position: absolute;
+		display: none;
+	}
+	
+	#slide-contain > a.active {
+		display: block;
+	}
+	
+	#counter {
+		height: 10px;
+		display: block;
+		float: right;
+		margin: 10px 40px 0 0;
+	}
+	
+	#counter span.bubble {
+		width: 10px;
+		height: 10px;
+		background: url(../images/bubble.png) no-repeat;
+		background-position: top;
+		display: block;
+		float: left;
+		margin: 3px;
+		cursor: pointer;
+	}
+	
+	#counter span.bubble.active {
+		background-position: bottom;
+	}
+	
+	
+	
 
 #main #how > div {
 	width: 290px;
