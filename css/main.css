@@ -11,7 +11,7 @@ input{outline:none;}
 .clear{clear:both;}
 body{background:#f7fbfc url(../images/bg.jpg) repeat;font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:300;font-size:1em;line-height:1em;}
 strong{font-weight:bold;}
-#top{background:url(../images/top_bg.jpg) repeat-x;height:42px;box-shadow:inset 0px 0 3px 0 #000;border-bottom:1px solid #fff;}
+#top{background:url(../images/top_bg.jpg) repeat-x;height:42px;box-shadow:inset 0 0 3px 0 #000;border-bottom:1px solid #fff;}
 #top span{width:960px;display:block;margin:0 auto;padding:13px 0 0 0;color:#fff;font-size:.75em;text-shadow:0 1px 1px #000;}
 #wrapper{width:960px;margin:40px auto 0 auto;position:relative;}
 #sidebar{width:224px;float:left;}
