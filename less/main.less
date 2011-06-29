@@ -158,7 +158,6 @@ a#email:active {
 	}
 
 	#slider #slide-contain {
-		position: relative;
 		width: 580px;
 		height: 280px;
 		display: block;
@@ -166,23 +165,27 @@ a#email:active {
 		overflow: hidden;
 	}
 	
-	#slide-contain > a {
-		position: absolute;
-		display: none;
+	#slider #slide-contain ul, #slider #slide-contain li {
+	    position:relative;
+	    margin:0;
+	    padding:0;
+	    list-style:none;
+		display:block;
+	}
+	#slider #slide-contain li { 
+	    overflow:hidden; 
 	}
 	
-	#slide-contain > a.active {
-		display: block;
-	}
+
 	
-	#counter {
+	ol.controls {
 		height: 10px;
 		display: block;
 		float: right;
 		margin: 10px 40px 0 0;
 	}
 	
-	#counter span.bubble {
+	ol.controls li {
 		width: 10px;
 		height: 10px;
 		background: url(../images/bubble.png) no-repeat;
@@ -191,9 +194,10 @@ a#email:active {
 		float: left;
 		margin: 3px;
 		cursor: pointer;
+		font-size: 0px;
 	}
 	
-	#counter span.bubble.active {
+	ol.controls li.current {
 		background-position: bottom;
 	}
 	
